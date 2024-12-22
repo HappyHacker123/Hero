@@ -1,0 +1,11 @@
+.idea
+export.so
+**/__pycache__/
+*.zip
+*.txt
+*.log
+*.out
+*.gif
+*.sqlite3
+*.xlsx
+*.mov

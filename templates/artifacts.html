@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+	<center>
+	<img style="width: 400px;" src='{% static 'img/artifacts/artifacts-logo.png' %}'/><br />
+	<img style="width: 800px;" src='{% static 'img/artifacts/content.png' %}'/>
+	<div class="d_buttion" id="start_diagnosis_btn" style="width: 200px;height: 80px;background-color: #328E75;border-radius: 10px;text-align: center;cursor:pointer;"
+						onmouseover="this.style.backgroundColor='#083C3A';" onmouseout="this.style.backgroundColor='#328E75';">
+		<a href="{% static 'files/Hero.zip' %}" style="font-size:36px;line-height:80px;color: white;padding-top:10px;text-decoration: none;" onmouseover="this.style.color='#FCFFB3';" onmouseout="this.style.color='#FFFFFF';
+			">Download</a>
+	</div>
+	</center>
+	<!--<div class="artifacts" style="color: black; font-family: Palatino Linotype">
+        <span style="font-weight: bold;font-size: 20px">Artifacts Download:</span><br/>
+        <a href="{% static 'files/20k Subjects Info In RQ1.xlsx' %}" style="color: black;text-decoration: none;" onmouseover="this.style.color='#D17A64';" onmouseout="this.style.color='#000000';">1.&nbsp;20k Subjects Info In RQ1</a><br>
+        <a href="{% static 'files/Benchmark Dataset (132 DM issues and subjects used for evaluation in RQ4).zip' %}" style="color: black;text-decoration: none;" onmouseover="this.style.color='#D17A64';" onmouseout="this.style.color='#000000';">2.&nbsp;Benchmark Dataset (132 DM issues and subjects <br/>&nbsp;&nbsp;&nbsp;&nbsp;used for evaluation in RQ4)</a><br>
+        <a href="{% static 'files/Empirical Study Dataset (151 DM issues for RQ2&3).xlsx' %}" style="color: black;text-decoration: none;" onmouseover="this.style.color='#D17A64';" onmouseout="this.style.color='#000000';">3.&nbsp;Empirical Study Dataset (151 DM issues for <br/>&nbsp;&nbsp;&nbsp;&nbsp;RQ2&3)</a>
+    </div>-->
+
+</body>
+</html>
